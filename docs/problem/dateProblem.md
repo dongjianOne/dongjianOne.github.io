@@ -1,7 +1,7 @@
-## YYYY-MM-dd引起的日期错误
+# YYYY-MM-dd引起的日期错误
 
 新的一年新的希望，但是由此引发的问题也还是要处理！[手动滑稽]
-###1.问题重现
+### 1.问题重现
         // 创建 2020-12-31
         Calendar calendar = Calendar.getInstance();
         calendar.set(2020,Calendar.DECEMBER,31);
@@ -20,9 +20,9 @@
 
 ### 2.翻车原因
 为什么“YYYY-MM-dd”格式化日期“2020-12-31”时，打印的结果是错误的“2021-12-31”呢？
-我们可以从官方文档对javase8版本对java.time.format的介绍中找到答案！打开地址（https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#patterns ）
+我们可以从官方文档对javase8版本对java.time.format的介绍中找到答案！[打开官网介绍](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#patterns)
 
-![image text](image/2.jpg)
+![text](image/2.jpg)
 
 YYYY使用的是week-based-year，一周属于的年份：一周从周日开始周六结束，只要本周跨年则本周就属于下一年。
 

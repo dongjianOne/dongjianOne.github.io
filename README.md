@@ -2,8 +2,8 @@
 # Hello VuePress! 👋
 ---
 ![avatar](https://visitor-badge.glitch.me/badge?page_id=vuepress)
-[![GitHub issues](https://img.shields.io/github/issues/tuojinhui/tuojinhui.github.io)](https://github.com/tuojinhui/tuojinhui.github.io/issues)
-[![GitHub stars](https://img.shields.io/github/stars/tuojinhui/tuojinhui.github.io)](https://github.com/tuojinhui/tuojinhui.github.io/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/dongjianOne/dongjianOne.github.io)](https://github.com/dongjianOne/dongjianOne.github.io/issues)
+[![GitHub stars](https://img.shields.io/github/stars/dongjianOne/dongjianOne.github.io)](https://github.com/dongjianOne/dongjianOne.github.io/stargazers)
 
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/haoruilee/haoruilee/master/pic/pusheencode.gif" />
 
@@ -13,7 +13,7 @@
 - 🤖️ SEU-iXiaoBao Contributer
 - 🌱 Currently working on "Using ML for meteorological early warning"
 - 💬 Ask me about Java, Vue and my projects on haoruileee@gmail.com
-- :star: You may like [Github Pages](https://github.com/tuojinhui/tuojinhui.github.io)
+- :star: You may like [Github Pages](https://github.com/dongjianOne/dongjianOne.github.io)
 - ⚡ Fun fact: Data Analysis📊
 
 ### Languages and Tools

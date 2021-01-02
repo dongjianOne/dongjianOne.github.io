@@ -17,7 +17,7 @@ module.exports = {
         sidebarDepth: 2,
         lastUpdated: '上次更新 ',
         docsDir: 'docs',
-        repo: 'https://github.com/tuojinhui/tuojinhui.github.io',
+        repo: 'https://github.com/dongjianOne/dongjianOne.github.io',
         repoLabel: 'GitHub',
         docsBranch: 'master',
         displayAllHeaders: true,
@@ -45,8 +45,8 @@ module.exports = {
         }],
         ['@vssue/vuepress-plugin-vssue', {
             platform: 'github-v4',
-            owner: 'tuojinhui',
-            repo: 'tuojinhui.github.io',
+            owner: 'dongjianOne',
+            repo: 'dongjianOne.github.io',
             clientId: '0c5e5feb0ba9e8b9eab8',
             clientSecret: '5447f009f0e1826b4bcadd5b38d86521faf30768',
         },]

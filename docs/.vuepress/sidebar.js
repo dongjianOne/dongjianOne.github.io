@@ -12,4 +12,6 @@ module.exports = {
 
     '/vue/': require('../vue/sidebar'),
 
+    '/problem': require('../problem/sidebar'),
+
 }

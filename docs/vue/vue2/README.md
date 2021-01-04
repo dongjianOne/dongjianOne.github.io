@@ -8,10 +8,11 @@
 		<meta charset="utf-8" />
 		<title></title>
 		<style type="text/css">
-			#login{
-				background-color: #ff0000;
+			#login {
+				background-color: red;
 			}
-			#register{
+
+			#register {
 				background-color: pink;
 			}
 		</style>
@@ -25,7 +26,7 @@
 			<!-- 插入HTML内容 -->
 			<h1 v-html="htmlTxt">{{htmlTxt}}</h1>
 			<!-- 绑定动态属性 -->
-			<div v-bind:id= "idName">
+			<div v-bind:id="idName">
 				<h2>登录</h2>
 			</div>
 			<!-- 模板语言表达式运算 -->
@@ -37,23 +38,34 @@
 				<h1>三元运算符</h1>
 				<h2>{{isFlag?"您是VIP享有蓝光权限":"对不起您是普通用户，请充值"}}</h2>
 			</div>
+			<div id="page">
+				<h1>背景颜色</h1>
+			</div>
+			<!-- 事件绑定 -->
+			<button type="button" @click="changeBackgroundColor">改变背景颜色</button>
 		</div>
 		<script type="text/javascript">
 			var app = new Vue({
-				el:"#app",
-				data:{
+				el: "#app",
+				data: {
 					msg: "hello Vue!",
 					htmlTxt: "<span>vue</span>",
 					idName: "login",
 					firstName: "曹",
 					lastName: "操",
 					isFlag: true
+				},
+				methods: {
+					changeBackgroundColor: function() {
+						page.style.background = "skyBlue"
+					}
 				}
 			})
 		</script>
-		
+
 	</body>
 </html>
+
 ```
 
 补充：可以通过浏览器console修改变量值观察效果!

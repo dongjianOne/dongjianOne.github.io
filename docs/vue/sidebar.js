@@ -5,8 +5,11 @@ module.exports = [
         children: ['/vue/vue1/']
     },
     {
-        title: 'vue侧边栏2',
+        title: 'vue学习',
         collapsable: true,
-        children: ['/vue/vue2/']
+        children: [
+            '/vue/vue2/README.md',
+            '/vue/vue2/computed.md',
+        ]
     }
 ]

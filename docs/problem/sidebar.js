@@ -4,6 +4,7 @@ module.exports = [
         collapsable: true,
         children: [
             '/problem/dateProblem.md',
+            '/problem/lombokProblem.md'
         ]
     }
 ]

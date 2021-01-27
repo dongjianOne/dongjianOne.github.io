@@ -11,5 +11,12 @@ module.exports = [
             '/vue/vue2/template.md',
             '/vue/vue2/computed.md',
         ]
+    },
+    {
+        title: 'vue安装',
+        collapsable: true,
+        children: [
+            '/vue/vue2/install.md'
+        ]
     }
 ]

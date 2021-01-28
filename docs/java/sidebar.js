@@ -19,8 +19,10 @@ module.exports = [
         ]
     },
     {
-        title: 'java侧边栏2',
+        title: 'java基础',
         collapsable: true,
-        children: ['/java/java2/']
+        children: [
+            'java/java2/interview/equals.md'
+        ]
     }
 ]

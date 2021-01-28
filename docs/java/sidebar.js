@@ -22,7 +22,7 @@ module.exports = [
         title: 'java基础',
         collapsable: true,
         children: [
-            'java/java2/equals.md'
+            '/java/java2/interview/equals.md'
         ]
     }
 ]

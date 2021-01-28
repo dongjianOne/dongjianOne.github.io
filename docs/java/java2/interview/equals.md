@@ -15,9 +15,9 @@
 
 代码一：
 
-```
+```java
         // 下面也会用到
-		String s1 = new String("abc");
+        String s1 = new String("abc");
         String s2 = new String("abc");
 
         System.out.println(s1 == s2); // false
@@ -32,7 +32,7 @@
 
 代码二：       
 
-```
+```java
         // 下面会用到
         String s3 = "abc";
         String s4 = "abc";
@@ -48,7 +48,7 @@
 
 代码三：
 
-```
+```java
         Set<String> set2 = new HashSet<>();
         set2.add(s3);
         set2.add(s4);
@@ -68,7 +68,7 @@
 
 代码四：
 
-````
+````java
         String str1 = "abc";
         String str2 = new String("abc");
         String str3 = "abc";

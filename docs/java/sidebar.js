@@ -23,7 +23,8 @@ module.exports = [
         collapsable: true,
         children: [
             '/java/java2/interview/equals.md',
-            '/java/java2/interview/reflex.md'
+            '/java/java2/interview/reflex.md',
+            '/java/java2/interview/generic.md',
         ]
     }
 ]

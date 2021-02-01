@@ -26,6 +26,14 @@ cnpm i -g @vue/cli-init
 vue init webpack Project-name
 ````
 
+安装sass-loader(sass-loader依赖于node-sass,所以要安装node-sass)
+```
+// 安装node-sass
+npm install --save-dev node-sass
+// 安装sass-loader
+npm install --save-dev sass-loader
+```
+
 
 
 

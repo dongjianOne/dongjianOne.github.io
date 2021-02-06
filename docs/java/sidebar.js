@@ -26,5 +26,14 @@ module.exports = [
             '/java/java2/interview/reflex.md',
             '/java/java2/interview/generic.md',
         ]
+    },
+    {
+        title: 'java设计模式',
+        collapsable: true,
+        children: [
+            '/java/java2/designpattern/singleton.md'
+        ]
     }
+
+
 ]

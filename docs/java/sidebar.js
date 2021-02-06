@@ -25,6 +25,7 @@ module.exports = [
             '/java/java2/interview/equals.md',
             '/java/java2/interview/reflex.md',
             '/java/java2/interview/generic.md',
+            '/java/java2/interview/hashCollision.md',
         ]
     },
     {

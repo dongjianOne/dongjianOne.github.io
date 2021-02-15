@@ -1,8 +1,10 @@
 module.exports = [
     {
-        title: 'mysql侧边栏1',
+        title: 'mysql',
         collapsable: true,
-        children: ['/mysql/mysql1/']
+        children: [
+            '/mysql/mysql1/SQLOptimization.md'
+        ]
     },
     {
         title: 'mysql侧边栏2',

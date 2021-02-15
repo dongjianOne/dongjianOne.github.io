@@ -4,7 +4,7 @@
 
 2.尽量避免在where子句中对字段进行null值判断，创建表时NULL是默认值，但是大多数时候应该使用NOT NULL，或者使用一个特殊值进行替代，例如0，-1作为默认值。
 
-3.尽量避免在where子句中使用!= 或 <>操作符，这会使索引失效。MySql只对一下操作符生效：<,<=,=,>,>=,BETWEEN,以及某些时候的LIKE(abc%)。
+3.尽量避免在where子句中使用!= 或 <>操作符，这会使索引失效。MySql只对以下操作符生效：<,<=,=,>,>=,BETWEEN,以及某些时候的LIKE(abc%)。
 
 4.尽量避免在where子句中使用or作为连接条件，否则将会导致引擎放弃使用索引而进行全表扫描，可以使用UNION(去重)/UNION ALL 合并查询。
 
@@ -15,10 +15,13 @@
 7.尽量避免在where子句中使用表达式和函数操作。
 
 8.很多时候exists代替IN是一个好的选择：
-
-select num from a where num in (select num from b) 可以替换为：
-
-select num from a exists(select 1 from b where num = a.num)
+````sql
+select num from a where num in (select num from b)
+````
+可以替换为： 
+````sql
+select num from a where exists(select 1 from b where num = a.num)
+````
 
 9.并不是在任何情况下都要为了提高查询效率而去建立索引，因为虽然索引提高了查询的效率但同时也降低了insert 和 update的效率，因为插入和更新操作会重新建立索引，所以说是否需要创建索引和创建怎样的索引都需要慎重考虑，视情况而定。一般一个表的索引最好不要超过6个。
 

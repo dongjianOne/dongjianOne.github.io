@@ -26,6 +26,7 @@ module.exports = [
             '/java/java2/interview/reflex.md',
             '/java/java2/interview/generic.md',
             '/java/java2/interview/hashCollision.md',
+            '/java/java2/interview/overload.md',
         ]
     },
     {

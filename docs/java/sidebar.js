@@ -41,7 +41,8 @@ module.exports = [
         title: 'java工具',
         collapsable: true,
         children: [
-            '/java/java2/tools/Knife4j.md'
+            '/java/java2/tools/Knife4j.md',
+            '/java/java2/tools/summingBigdecimal.md'
         ]
     }
 
